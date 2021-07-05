@@ -2,10 +2,10 @@ from setuptools import setup
 
 setup(
     name="optopsy",
-    description="Python Backtesting library for options trading strategies",
+    description="A nimble backtesting and statistics library for options strategies",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    version="1.0.3",
+    version="2.0.1",
     url="https://github.com/michaelchu/optopsy",
     author="Michael Chu",
     author_email="mchchu88@gmail.com",
@@ -16,4 +16,5 @@ setup(
         "Programming Language :: Python :: 3.6",
     ],
     packages=["optopsy"],
+    install_requires=["pandas", "numpy"],
 )
